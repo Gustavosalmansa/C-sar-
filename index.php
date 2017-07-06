@@ -62,7 +62,7 @@
 				</p>
 				<?php 
 					}else{
-						echo "<h3>não foi possivel efetuar a ação</h3>";
+						echo "<h3>não foi possivel efeuar a ação</h3>";
 					}
 				}
 				?>
