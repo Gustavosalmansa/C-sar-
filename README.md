@@ -19,9 +19,9 @@ Coloque todos os arquivos na sua pasta localhost
 
 Executando a aplicação
 -----------
-Colocar os arquivos no host
-Abrir o navegador
-Abrir o Index.php
+Colocar os arquivos no host./
+Abrir o navegador./
+Abrir o Index.php./
 Inserir a palavra a ser criptografada/descriptografada.
 ```
 - ./codec
