@@ -10,14 +10,19 @@ Codec (Na visão de usuário):
 4. Descompressão de arquivo  (Com base na redundância e similariadde)
 ```
 
-Compilando o código fonte da do Codec (Utilizando GNU GCC):
+Compilando o código fonte da Cifra (Utilizando PHP):
 -----------
-```
-gcc codec.c codec.h interface.c -o codec
-```
+Pré requisitos: Servidor que leia os arquivos .php/.js
+
+Coloque todos os arquivos na sua pasta localhost
+
 
 Executando a aplicação
 -----------
+Colocar os arquivos no host
+Abrir o navegador
+Abrir o Index.php
+Inserir a palavra a ser criptografada/descriptografada.
 ```
 - ./codec
 ```
@@ -27,11 +32,10 @@ Codec (Na visão do desenvolvedor):
 
 Visão geral do repositório:
 -----------
-1. interface.c: Funções responsáveis pela leitura (scanf) e escrita (printf) de informações ao usuário da aplicação.
-2. codec.h: Definições (protótipo) das funções do arquivo (Codec.c).
-3. codec.c: Funções principais responsáveis pela compressão/descompressão e compactação/descompactação.
+1. interface: Funções responsáveis pela leitura e escrita dos caracteres a serem decifrados/cifrados.
+2. index: Definições  das funções do arquivo .
+3. Controller.index: Funções principais responsáveis pela compressão/descompressão e compactação/descompactação.
 
 Novas funcionalidades (Futuro):
 -----------
-- Remover a limitação de 30 chars para o nome do arquivo.
-- Criar novas funções para compressão (Algorítimo Burrows–Wheeler).
+- Adivinhar a palavra sem ter que inseri-la  de forma manual na base de dados.
